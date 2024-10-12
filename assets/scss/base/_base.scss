@@ -9,6 +9,12 @@ a {
   display: inline-block;
 }
 
+ul,
+ol,
+li {
+  list-style: none;
+}
+
 code {
   font-family: "Noto Sans TC", sans-serif;
   color: $success;

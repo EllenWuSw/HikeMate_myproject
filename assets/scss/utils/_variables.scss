@@ -302,12 +302,27 @@ $cyans: (
 // $secondary:     $gray-600 !default;
 $primary: #37651c;
 $secondary: #5d4f44;
-$success: $green !default;
-$info: $cyan !default;
-$warning: $yellow !default;
-$danger: $red !default;
-$light: $gray-100 !default;
-$dark: $gray-900 !default;
+// $success: $green !default;
+// $info: $cyan !default;
+// $warning: $yellow !default;
+// $danger: $red !default;
+// $light: $gray-100 !default;
+// $dark: $gray-900 !default;
+$green100: #f8faf8;
+$green200: #f1f6ed;
+$green300: #e5f6dc;
+$green400: #d9edcb;
+$green500: #c0d0b5;
+$green600: #7b8675;
+$green700: #6b7665;
+$green800: #53584f;
+$green900: #3f443b;
+
+$brown100: #847263;
+$brown200: #6f665e;
+$gray100: #dedede;
+$gray200: #7f7f7f;
+
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -316,12 +331,25 @@ $theme-colors: (
   // "secondary":  $secondary,
   "primary": $primary,
   "secondary": $secondary,
-  "success": $success,
-  "info": $info,
-  "warning": $warning,
-  "danger": $danger,
-  "light": $light,
-  "dark": $dark
+  // "success": $success,
+  // "info": $info,
+  // "warning": $warning,
+  // "danger": $danger,
+  // "light": $light,
+  // "dark": $dark
+  "green100": $green100,
+  "green200": $green200,
+  "green300": $green300,
+  "green500": $green500,
+  "green600": $green600,
+  "green700": $green700,
+  "green800": $green800,
+  "green900": $green900,
+
+  "brown100": $brown100,
+  "brown200": $brown200,
+  "gray100": $gray100,
+  "gray200": $gray200
 ) !default;
 // scss-docs-end theme-colors-map
 
