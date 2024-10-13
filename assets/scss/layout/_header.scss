@@ -1,4 +1,39 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+// .header{
+//   background: #69F0AE;
+//   font-size: 64px;
+// }
+.navbar {
+  --bs-navbar-padding-y: 0; /* 將上下 padding 設為 0 */
+  --bs-navbar-active-color: inherit; /* 保持與父元素顏色一致 */
+}
+.offcanvas .offcanvas-header {
+  padding: 0; /* 將 padding 設置為 0 */
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
+.offcanvas .offcanvas-body {
+  padding: 0; /* 將 padding 設置為 0 */
+  padding: 2rem 1rem;
+}
+.nav-item-li {
+  padding-left: 1rem;
+  font-weight: 700;
+  color: #37651c;
+  border-radius: 4px;
+}
+.nav-item-li:hover {
+  color: #ffffff;
+  background: #37651c;
+}
+.sign-btn {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #5d4f44;
+  border-radius: 4px;
+  text-align: center;
+}
+.custom-gap {
+  gap: 0.625 rem; /* 將間距設為10px */
 }

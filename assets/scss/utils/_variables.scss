@@ -323,6 +323,8 @@ $brown100: #847263;
 $brown200: #6f665e;
 $gray100: #dedede;
 $gray200: #7f7f7f;
+$black: #000000;
+$white: #ffffff;
 
 // scss-docs-end theme-color-variables
 
@@ -350,7 +352,9 @@ $theme-colors: (
   "brown100": $brown100,
   "brown200": $brown200,
   "gray100": $gray100,
-  "gray200": $gray200
+  "gray200": $gray200,
+  "black": $black,
+  "white": $white
 ) !default;
 // scss-docs-end theme-colors-map
 
