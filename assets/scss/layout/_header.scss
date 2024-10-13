@@ -5,6 +5,7 @@
 .navbar {
   --bs-navbar-padding-y: 0; /* 將上下 padding 設為 0 */
   --bs-navbar-active-color: inherit; /* 保持與父元素顏色一致 */
+  --bs-navbar-toggler-border-color: none;
 }
 .offcanvas .offcanvas-header {
   padding: 0; /* 將 padding 設置為 0 */
@@ -35,5 +36,5 @@
   text-align: center;
 }
 .custom-gap {
-  gap: 0.625 rem; /* 將間距設為10px */
+  gap: 0.625rem; /* 將間距設為10px */
 }
