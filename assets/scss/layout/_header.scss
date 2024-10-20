@@ -1,7 +1,46 @@
-// .header{
-//   background: #69F0AE;
-//   font-size: 64px;
-// }
+.header-nav {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+.top-logo {
+  margin-right: 7.5rem;
+}
+.container-full {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.padding-left-0 {
+  padding-left: 0;
+}
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+.gap-48px {
+  gap: 3rem;
+}
+.menu_button {
+  padding: 16px 32px;
+  border-radius: 4px 4px 4px 4px;
+  border: 2px solid #c0d0b5;
+  opacity: 0px;
+  font-size: 24px;
+  color: #44513c;
+  font-weight: 700;
+}
+.menu_button:hover {
+  border: 2px solid #44513c;
+  color: #ffffff;
+  background: #44513c;
+}
+.sign-btn-sm {
+  margin-left: 7.5rem;
+  border: 2px solid #44513c;
+  color: #ffffff;
+  background: #44513c;
+}
+
+//手機板
 .navbar {
   --bs-navbar-padding-y: 0; /* 將上下 padding 設為 0 */
   --bs-navbar-active-color: inherit; /* 保持與父元素顏色一致 */
