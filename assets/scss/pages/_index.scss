@@ -1,3 +1,109 @@
 .index-title {
   font-size: 100px;
 }
+//以下為痛點及優勢
+.pain-points {
+  background-color: rgba(241, 246, 237, 1);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.point-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+}
+.point-subtit {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+.point-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.point-icon {
+  max-width: 33%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.point-text {
+  text-align: center;
+}
+.pain-points-main {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  margin-bottom: 1.5rem;
+}
+.advantages {
+  background-color: white;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.advantages-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+  text-align: center;
+}
+.advantages-card {
+  max-width: 19rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.advantages-scri {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: rgba(68, 81, 60, 1);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+.advantages-navbar {
+  margin: 0 auto;
+  padding: 2rem 3.5rem;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px 4px 4px 4px;
+  border: 2px solid #dedede;
+  background: linear-gradient(180deg, #f8faf8 0%, #f0f6ec 100%);
+  align-items: center;
+}
+.advantages-navbar-scri {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: center;
+  color: rgba(68, 81, 60, 1);
+  margin-right: 4rem;
+}
+.advantages-btns {
+  display: flex;
+}
+.advantages-btn {
+  border-radius: 4px 4px 4px 4px;
+  border: 2px solid rgba(68, 81, 60, 1);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  color: rgba(68, 81, 60, 1);
+}
+.join-btn {
+  margin-left: 1.5rem;
+}
+
+.advantages-btn:hover {
+  color: white;
+  background: rgba(68, 81, 60, 1);
+}
+//以上為痛點及優勢
